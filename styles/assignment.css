@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+/* Style for Header Option */
+.header {
+    width: 1498px;
+    height: 808px;
+    background-image: url('../images/banner/banner3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-title {
+    font-weight: 900;
+    font-size: 55px;
+    color: #FFFFFF;
+    padding: 216px 150px 10px 900px;
+}
+
+.header-paragraph {
+    font-weight: 50;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 26px;
+    padding: 0px 150px 32px 900px;
+    margin-top: 21px;
+}
+
+.first-button {
+    margin: 0px 150px 166px 900px;
+    padding: 20px 25px;
+    border: 1px;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 20px;
+    color: #005FAC;
+    background: #FFFFFF;
+}
+
+/* Style For Main Option */
+.first-section {
+    display: flex;
+    margin: 131px 322px 30px 206px;
+}
+
+.first-section-title {
+    padding: 150px 30px 0px 100px;
+    font-weight: 900;
+    font-size: 40px;
+    color: #151414;
+}
+
+#paragraph {
+    font-weight: 500;
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+    padding: 24px 10px 0px 102px;
+    margin-bottom: 16px;
+}
+
+#list {
+    font-weight: 500;
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+    padding: 0px 20px 214px 130px;
+}
+
+ul {
+    list-style-image: url('../images/icons/check-mark.png');
+}
+
+.plans-container {
+    display: flex;
+    justify-content: center;
+    gap: 135px;
+    margin-bottom: 130px;
+}
+
+.second-section-title {
+    font-weight: 900;
+    font-size: 35px;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plan1 h3 {
+    font-weight: 900;
+    font-size: 25px;
+    color: #151414;
+}
+
+.plan1 img {
+    padding-left: 68px;
+}
+
+.plan2 img {
+    padding-left: 38px;
+}
+
+.plan3 img {
+    padding-left: 41px;
+}
+
+.plan4 img {
+    padding-left: 45px;
+}
+
+.plan2 h3 {
+    font-weight: 900;
+    font-size: 25px;
+    color: #151414;
+    padding-left: 25px;
+}
+
+.plan3 h3 {
+    font-weight: 900;
+    font-size: 25px;
+    color: #151414;
+}
+
+.plan4 h3 {
+    font-weight: 900;
+    font-size: 25px;
+    color: #151414;
+    padding-left: 30px;
+}
+
+.plan1 p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    padding-left: 21px;
+}
+
+.plan2 p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    padding-left: 0px;
+}
+
+.plan3 p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    padding-left: 5px;
+}
+
+.plan4 p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    padding-left: 0px;
+}
+
+.third-section {
+    width: 1150px;
+    height: 300px;
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    margin: 0px 200px 150px 180px;
+    border: 1px;
+    border-radius: 10px;
+}
+
+#call-now-title {
+    font-weight: 900;
+    font-size: 35px;
+    color: #FFFFFF;
+    padding: 59px 617px 28px 64px;
+}
+
+#call-now-button {
+    margin: 0px 916px 59px 64px;
+    padding: 18px 36px;
+    border: 1px;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 20px;
+    color: #005FAC;
+    background: #FFFFFF;
+}
+
+.fourth-section {
+    width: 1150px;
+    height: 450px;
+    background-color: DodgerBlue;
+    margin: 0px 200px 150px 180px;
+    border: none;
+    border-radius: 10px;
+}
+
+.fourth-section h2 {
+    padding: 55px 200px 0px 500px;
+    font-size: 45px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.pricing-container-first {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 65px 0px 0px 0px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 16px 0px;
+}
+
+.pricing {
+    background-color: #FFFFFF;
+    padding: 20px 100px;
+    width: 250px;
+    height: 20px;
+    border: 1px;
+    border-radius: 10px;
+    color: dodgerblue;
+}
+
+/* Style for Footer Option */
+footer {
+    width: 1498px;
+    height: 550px;
+    background: #151414;
+    display: flex;
+    gap: 250px;
+}
+
+.footer-contact {
+    padding: 128px 100px 395px 200px;
+}
+
+.footer-contact h2 {
+    font-weight: 900;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.footer-contact p {
+    font-weight: 50;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 26px;
+}
+
+.footer-contact a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-contact img {
+    margin-right: 12px;
+}
+
+.footer-subscribe {
+    padding: 125px 0px 144px 0px;
+    margin-right: 200px;
+}
+
+.footer-subscribe h3 {
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+input[type="email"] {
+    height: 55px;
+    width: 300px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    background: #151414;
+    margin-bottom: 16px;
+}
+
+input[type="button"] {
+    padding: 16px 30px;
+    border: 1px;
+    border-radius: 5px;
+    font-weight: 580;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #005FAC;
+}
