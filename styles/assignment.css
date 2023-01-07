@@ -4,33 +4,31 @@
 }
 
 /* Style for Header Option */
-.header {
-    width: 1498px;
-    height: 808px;
-    background-image: url('../images/banner/banner3.png');
+.header-container {    
+    background-image: url(../images/banner/banner3.png);
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 200px 40px 110px 800px;
 }
 
 .header-title {
     font-weight: 900;
     font-size: 55px;
-    color: #FFFFFF;
-    padding: 216px 150px 10px 900px;
+    color: #FFFFFF;   
 }
 
 .header-paragraph {
     font-weight: 50;
     font-size: 16px;
     color: #FFFFFF;
-    line-height: 26px;
-    padding: 0px 150px 32px 900px;
+    line-height: 26px;    
     margin-top: 21px;
+    margin-bottom: 30px;
+    padding-right: 10px;
 }
 
 .first-button {
-    margin: 0px 150px 166px 900px;
-    padding: 20px 25px;
+    padding: 16px 25px;
     border: 1px;
     border-radius: 5px;
     font-weight: 900;
@@ -42,7 +40,7 @@
 /* Style For Main Option */
 .first-section {
     display: flex;
-    margin: 131px 322px 30px 206px;
+    margin: 126px 150px 30px 206px;
 }
 
 .first-section-title {
@@ -72,6 +70,7 @@
 ul {
     list-style-image: url('../images/icons/check-mark.png');
 }
+
 
 .plans-container {
     display: flex;
@@ -158,14 +157,12 @@ ul {
     padding-left: 0px;
 }
 
-.third-section {
-    width: 1150px;
-    height: 300px;
+.third-section {    
     background-image: url('../images/gradient1.png'), url('../images/watch.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
-    margin: 0px 200px 150px 180px;
+    margin: 0px 135px 150px 135px;
     border: 1px;
     border-radius: 10px;
 }
@@ -178,8 +175,8 @@ ul {
 }
 
 #call-now-button {
-    margin: 0px 916px 59px 64px;
-    padding: 18px 36px;
+    margin: 0px 816px 59px 64px;
+    padding: 14px 30px;
     border: 1px;
     border-radius: 5px;
     font-weight: 900;
@@ -188,17 +185,16 @@ ul {
     background: #FFFFFF;
 }
 
-.fourth-section {
-    width: 1150px;
-    height: 450px;
+.fourth-section {    
     background-color: DodgerBlue;
-    margin: 0px 200px 150px 180px;
+    margin: 0px 135px 150px 135px;
     border: none;
     border-radius: 10px;
+    padding-bottom: 55px;
 }
 
 .fourth-section h2 {
-    padding: 55px 200px 0px 500px;
+    padding: 55px 200px 0px 480px;
     font-size: 45px;
     font-weight: 600;
     color: #FFFFFF;
@@ -229,16 +225,14 @@ ul {
 }
 
 /* Style for Footer Option */
-footer {
-    width: 1498px;
-    height: 550px;
+footer {    
     background: #151414;
     display: flex;
-    gap: 250px;
+    gap: 200px;
 }
 
 .footer-contact {
-    padding: 128px 100px 395px 200px;
+    padding: 120px 100px 80px 145px;
 }
 
 .footer-contact h2 {
@@ -266,7 +260,7 @@ footer {
 
 .footer-subscribe {
     padding: 125px 0px 144px 0px;
-    margin-right: 200px;
+    margin-right: 145px;
 }
 
 .footer-subscribe h3 {
@@ -286,7 +280,7 @@ input[type="email"] {
 }
 
 input[type="button"] {
-    padding: 16px 30px;
+    padding: 16px 28px;
     border: 1px;
     border-radius: 5px;
     font-weight: 580;
